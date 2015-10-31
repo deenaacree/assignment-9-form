@@ -1,0 +1,50 @@
+Title: Roman Empire Quiz
+
+
+Heading: Roman Empire Quiz
+The Roman Empire was one of the most powerful economic, military, political, and cultural forces in the world at its time.  It was one of the largest empires in world history, and was the largest empire during its time (known as the classical antiquity period).
+
+At its height, it ruled 70 million people—equal to 21 percent of the world's population at that time—and covered over five million square kilometers. Later, Roman and Greek culture were spread by European expansion on a worldwide scale—leading to both playing a significant role in the rest of the world's development.
+
+Learning about the Roman Empire is essential to learning about the foundations of Western culture. Read about the Roman Empire here (Link to the page: https://en.wikipedia.org/wiki/Roman_Empire).
+
+Question 0: What is your name?
+
+Question 1: What Latin phrase expresses the ideology that neither time nor space limits the Roman Empire?
+  Answer: imperium sine fine
+
+Question 2: Which of the following architectural elements did the Romans create? Select all that apply.
+  A: stadium
+  B: arch
+  C: statue
+  D: vault
+  E: dome
+  Answers: arch, vault, dome
+
+Question 3: When did Rome expand outside of Italy?
+  A: 6th century BC
+  B: 180 AD
+  C: 3rd century BC
+  D: 44 BC
+  E: 1st century BC
+  Answer: 3rd century BC
+
+Question 4: What were the three major elements of the Imperial Roman state?
+  A: the military, the provincial government, and the Senate
+  B: central government, the provincial government, and Congress
+  C: central government, the military, and provincial government
+  D: provincial government, central government, and the Republic
+  Answer: C—central government, the military, and provincial government
+
+Question 5: What was the national garment of Roman male citizens?
+  A: sashes
+  B: dress
+  C: toga
+  D: kilt
+  Answer: toga
+
+Question 6: List at least six types of art that were influenced by the Roman Empire. 
+  Possible Answers: The main categories were portraiture, sculpture (including Sarcophagi), painting, mosaic, decorative arts (pottery, silver/bronze vessels and implements, and glassware), and performing arts (theater, music, and dance).
+
+
+Submit button / Reset button
