@@ -6,14 +6,20 @@ The Roman Empire was one of the most powerful economic, military, political, and
 
 At its height, it ruled 70 million people—equal to 21 percent of the world's population at that time—and covered over five million square kilometers. Later, Roman and Greek culture were spread by European expansion on a worldwide scale—leading to both playing a significant role in the rest of the world's development.
 
-Learning about the Roman Empire is essential to learning about the foundations of Western culture. Read about the Roman Empire here (Link to the page: https://en.wikipedia.org/wiki/Roman_Empire).
+Learning about the Roman Empire is essential to learning about the foundations of Western culture. Read about the Roman Empire here at Wikipedia. (Link to the page: https://en.wikipedia.org/wiki/Roman_Empire).
 
-Question 0: What is your name?
+After you've read about the Roman Empire, take this quiz to test your knowledge.
 
-Question 1: What Latin phrase expresses the ideology that neither time nor space limits the Roman Empire?
+Question 0: What is your name? (text field)
+Question 0: What is your email address? (text field)
+
+Question 1: What Latin phrase expresses the ideology that neither time nor space limits the Roman Empire? (text field)
   Answer: imperium sine fine
 
-Question 2: Which of the following architectural elements did the Romans create? Select all that apply.
+Question 2: For the first two centuries of the Roman Empire, there was an previously-unheard of period of political stability and prosperity known as the...
+  Answer: Pax Romana
+
+Question 3: Which of the following architectural elements did the Romans create? Select all that apply. (checkboxes)
   A: stadium
   B: arch
   C: statue
@@ -21,7 +27,7 @@ Question 2: Which of the following architectural elements did the Romans create?
   E: dome
   Answers: arch, vault, dome
 
-Question 3: When did Rome expand outside of Italy?
+Question 4: When did Rome expand outside of Italy? (radio)
   A: 6th century BC
   B: 180 AD
   C: 3rd century BC
@@ -29,21 +35,25 @@ Question 3: When did Rome expand outside of Italy?
   E: 1st century BC
   Answer: 3rd century BC
 
-Question 4: What were the three major elements of the Imperial Roman state?
+Question 5: What were the three major elements of the Imperial Roman state? (radio)
   A: the military, the provincial government, and the Senate
   B: central government, the provincial government, and Congress
   C: central government, the military, and provincial government
   D: provincial government, central government, and the Republic
   Answer: C—central government, the military, and provincial government
 
-Question 5: What was the national garment of Roman male citizens?
+Question 6: What was the national garment of Roman male citizens? (select menu)
   A: sashes
-  B: dress
-  C: toga
-  D: kilt
-  Answer: toga
+  B: shorts
+  C: togas
+  D: kilts
+  E: coats
+  F: mended shirts
+  G: sweatpants
+  H: dresses
+  Answer: togas
 
-Question 6: List at least six types of art that were influenced by the Roman Empire. 
+Question 7: List at least six types of art that were influenced by the Roman Empire. (textarea)
   Possible Answers: The main categories were portraiture, sculpture (including Sarcophagi), painting, mosaic, decorative arts (pottery, silver/bronze vessels and implements, and glassware), and performing arts (theater, music, and dance).
 
 

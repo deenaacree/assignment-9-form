@@ -3,34 +3,145 @@
 
 <head>
   <meta charset = "utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title> Roman Empire Quiz </title>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto%7cOswald' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
 
-<h1>Roman Empire Quiz</h1>
+<header>
+  <h1>Roman Empire Quiz</h1>
+</header>
 
   <div class="container">
+            <!-- info about the quiz goes here -->
+            <div class="about">
+              <p>The Roman Empire was one of the most powerful economic, military, political, and cultural forces in the world at its time.  It was one of the largest empires in world history, and was the largest empire during its time (known as the <i>classical antiquity period</i>).</p>
+
+              <p>At its height, it ruled 70 million people—equal to 21 percent of the world's population at that time—and covered over five million square kilometers. Later, Roman and Greek culture were spread by European expansion on a worldwide scale—leading to both playing a significant role in the rest of the world's development.</p>
+
+              <p>Learning about the Roman Empire is essential to learning about the foundations of Western culture. Read more about the Roman Empire <a href="https://en.wikipedia.org/wiki/Roman_Empire">here</a> at Wikipedia.</p>
+
+              <p>After you've read about the Roman Empire, take this quiz to test your knowledge.</p>
+            </div>
+
       <div class="row">
-        <div class="col-sm-6" "col-md-4" "col-lg-2">
-            <!-- stuff about the quiz goes here -->
-          <p>The Roman Empire was one of the most powerful economic, military, political, and cultural forces in the world at its time.  It was one of the largest empires in world history, and was the largest empire during its time (known as the classical antiquity period).</p>
 
-            <p>At its height, it ruled 70 million people—equal to 21 percent of the world's population at that time—and covered over five million square kilometers. Later, Roman and Greek culture were spread by European expansion on a worldwide scale—leading to both playing a significant role in the rest of the world's development.</p>
+        <div class="col-sm-6 col-md-4 col-lg-3">
 
-            <p>Learning about the Roman Empire is essential to learning about the foundations of Western culture. Read about the Roman Empire <a href="https://en.wikipedia.org/wiki/Roman_Empire">here.</a></p>
-          <form>
-            <!-- quiz stuff goes here -->
+        <!-- quiz goes here -->
 
+          <form id="myForm" action="/echo/html/" method="post">
 
+            <fieldset>
+              <legend><h2>Roman Empire Quiz</h2></legend>
+
+              <div class="form-group">
+                <p><label for="form-ideologyPhrase"> Question 1: What Latin phrase expresses the ideology that neither time nor space limits the Roman Empire?
+                <input type="text" name="ideologyPhrase" id="form-ideologyPhrase"></label></p>
+                  <!-- Answer: imperium sine fine -->
+              </div>
+
+              <div class="form-group">
+                <p><label for=form-peacetime>Question 2: For the first two centuries of the Roman Empire, there was an previously-unheard of period of political stability and prosperity known as the...
+                <input type="text" name="peacetimeLabel" id="form-peacetime"></label></p>
+                  <!-- Answer: Pax Romana -->
+              </div>
+
+              <div class="form-group">
+                <div class="checkbox">
+                  <p>Question 3: Which of the following architectural elements did the Romans create? Select all that apply.
+                  <ul>
+                    <li><input type="checkbox" name="architecture" id="architecture1" value="stadium">stadium</li>
+                    <li><input type="checkbox" name="architecture" id="architecture2" value="arch">arch</li>
+                    <li><input type="checkbox" name="architecture" id="architecture3" value="statue">statue</li>
+                    <li><input type="checkbox" name="architecture" id="architecture4" value="vault">vault</li>
+                    <li><input type="checkbox" name="architecture" id="architecture5" value="dome">dome</li>
+                  </ul></p>
+                    <!-- Answers: arch, vault, dome -->
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="radio">
+                  <p>Question 4: When did Rome expand outside of Italy?
+                  <ul>
+                    <li><input type="radio" name="expansion" id="expansionA" value="6th century BC">A: 6th century BC</li>
+                    <li><input type="radio" name="expansion" id="expansionB" value="180 AD">B: 180 AD</li>
+                    <li><input type="radio" name="expansion" id="expansionC" value="3rd century BC">C: 3rd century BC</li>
+                    <li><input type="radio" name="expansion" id="expansionD" value="44 BC">D: 44 BC</li>
+                    <li><input type="radio" name="expansion" id="expansionE" value="1st century BC">E: 1st century BC</li>
+                  </ul></p>
+                    <!-- Answer: 3rd century BC -->
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="radio">
+                  <p>Question 5: What were the three major elements of the Imperial Roman state?
+                  <ul>
+                    <li><input type="radio" name="government" id="government1" value="the military, the provincial government, and the Senate">A: the military, the provincial government, and the Senate</li>
+                    <li><input type="radio" name="government" id="government2" value="central government, the provincial government, and Congress">B: central government, the provincial government, and Congress</li>
+                    <li><input type="radio" name="government" id="government3" value="central government, the military, and provincial government">C: central government, the military, and provincial government</li>
+                    <li><input type="radio" name="government" id="government4" value="provincial government, central government, and the Republic">D: provincial government, central government, and the Republic</li>
+                  </ul></p>
+                    <!-- Answer: C—central government, the military, and provincial government -->
+                </div>
+              </div>
+
+              <div class="form-group">
+                  <p><label for="garments">Question 6: What was the national garment of Roman male citizens?
+                    <select name="garments" id="garments">
+                      <option>Select a garment...</option>
+                      <option name="garments" id="garments1">sashes</option>
+                      <option name="garments" id="garments2">shorts</option>
+                      <option name="garments" id="garments3">togas</option>
+                      <option name="garments" id="garments4">kilts</option>
+                      <option name="garments" id="garments5">coats</option>
+                      <option name="garments" id="garments6">mended shirts</option>
+                      <option name="garments" id="garments7">sweatpants</option>
+                      <option name="garments" id="garments8">dresses</option>
+                    </select></p>
+                    <!-- Answer: togas -->
+                </div>
+
+              <div class="form-group">
+                <p><label for="form-artInfluence"> Question 7: List at least six types of art that were influenced by the Roman Empire.<p>
+                <textarea class="form-control" name="artInfluence" id="form-artInfluence" rows="5" placeholder="At least six types! You can do it!."></textarea>
+                  <!-- Possible Answers: The main categories were portraiture, sculpture (including Sarcophagi), painting, mosaic, decorative arts (pottery, silver/bronze vessels and implements, and glassware), and performing arts (theater, music, and dance). -->
+              </div>
+
+            </fieldset>
+
+            <fieldset>
+              <legend><h2>Get Your Score</h2></legend>
+
+              <div class="form-group">
+                <p><label for="form-name"> Name: <input type="text" name="name" id="form-name" placeholder="First and Last Name"></label></p>
+                <p><label for="form-email"> Email: <input type="text" name="email" id="form-email" placeholder="Email Address"></label></p>
+                <p><label for="emailOption"><input type="checkbox" name="emailOption" id="emailOption" value="Yes, please email my score to me!">Yes, please email my score to me!</p>
+              </div>
+
+            </fieldset>
+
+                <p><input class="btn btn-default" type="submit" value="Submit Your Quiz!"> <!-- Submit button -->
+                <input class="btn btn-default" type="reset" value="Start Over"></p> <!--Reset button-->
 
           </form>
+
         </div> <!-- closes column div -->
       </div> <!-- closes row div -->
   </div> <!-- closes container div -->
 
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/form-processor.js"></script>
+
 </body>
 
-</head>
+</html>

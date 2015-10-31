@@ -1,0 +1,57 @@
+body {
+  font-family: "Roboto", "Calibri", Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #77C4D3;
+  padding: 5px;
+}
+
+h1 {
+  font-family: "Oswald", "Calibri", Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.container {
+  margin: 2%;
+  max-width: 90%;
+  align: center;
+}
+
+.about {
+  padding-bottom: 30px;
+
+}
+
+.row {
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+fieldset {
+  border-color: #77C4D3;
+}
+
+.form-control {
+  width: 50%;
+}
+
+#form-name, #form-email {
+  width: 30%;
+}
+
+
+
+@media (max-width: 678px) {
+  body {
+    font-size: 80%;
+  }
+
+  fieldset {
+    border: none;
+  }
